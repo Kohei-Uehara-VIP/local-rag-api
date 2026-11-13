@@ -1,0 +1,42 @@
+# ==== Python ====
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ==== Virtual environments (the conda env lives outside this repo; listed just in case) ====
+.venv/
+venv/
+env/
+
+# ==== Secrets: never commit ====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==== Documents: copyrighted or private (includes the assignment PDF) ====
+data/docs/*
+!data/docs/.gitkeep
+*.pdf
+
+# ==== Vector database: rebuilt by day3_rag/ingest.py ====
+chroma_db/
+
+# ==== Model weights and caches: large and re-downloadable ====
+models/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+.cache/
+
+# ==== OS and editor files ====
+.DS_Store
+.vscode/
+.idea/
+
+# ==== Logs ====
+*.log

@@ -1,0 +1,5 @@
+# Python 3.11 (conda env: local-rag-api)
+# Install with: python -m pip install -r requirements.txt
+
+# ---- Day 1: Ollama Python client ----
+ollama==0.6.3
