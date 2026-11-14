@@ -3,3 +3,8 @@
 
 # ---- Day 1: Ollama Python client ----
 ollama==0.6.3
+
+# ---- Day 2: LangChain orchestration ----
+langchain==1.5.0
+langchain-core==1.8.0
+langchain-ollama==1.1.0
