@@ -21,6 +21,10 @@ data/docs/*
 !data/docs/.gitkeep
 *.pdf
 
+# ==== Sample images for Day 4 (third-party or personal photos) ====
+data/images/*
+!data/images/.gitkeep
+
 # ==== Vector database: rebuilt by day3_rag/ingest.py ====
 chroma_db/
 
